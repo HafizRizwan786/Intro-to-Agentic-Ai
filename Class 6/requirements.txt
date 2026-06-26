@@ -1,0 +1,7 @@
+chromadb
+sentence-transformers
+torch
+transformers
+pillow
+python-dotenv
+google-genai
