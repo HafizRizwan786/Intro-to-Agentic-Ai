@@ -1,0 +1,6 @@
+describe_topic:
+  description: >
+    Describe the {topic} in detail, providing an overview of its key concepts, principles, and applications. Include relevant examples and explanations to help the learner understand the topic thoroughly.
+  expected_output: >
+    The students will have mastered the {topic}.
+  agent: sir_zia
