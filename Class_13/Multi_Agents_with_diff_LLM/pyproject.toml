@@ -1,5 +1,5 @@
 [project]
-name = "multi-agents"
+name = "multi-agents-with-diff-llm"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,13 +8,12 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "crewai[google-genai]>=1.15.1",
-    "python-dotenv>=1.2.2",
+    "crewai[google-genai]>=1.15.2",
+    "dotenv>=0.9.9",
 ]
 
 [project.scripts]
-multi-agents = "multi_agents.main:kickoff"
-multi-agents2 = "multi_agents.main2:kickoff2"
+multi-agents-with-diff-llm = "multi_agents_with_diff_llm.main:kickoff"
 
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
