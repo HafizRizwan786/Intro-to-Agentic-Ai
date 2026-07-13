@@ -10,7 +10,7 @@ llm1=LLM(
 )
 
 llm2=LLM(
-    model='gemini/gemini-2.5-pro',
+    model="gemini/gemini-2.5-flash",
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
